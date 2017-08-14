@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>Darrell Tunnell</authors>
+    <owners>Darrell Tunnell</owners>
+    <licenseUrl>https://github.com/dazinator/MonoDroid.ViewLifecycleManager/licence.md</licenseUrl>
+    <projectUrl>https://github.com/dazinator/MonoDroid.ViewLifecycleManager</projectUrl>
+    <id>Dazinator.MonoDroid.ViewLifecycleManager</id>
+    <title>MonoDroid View Lifecycle Manager</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Use this to keep track of activities including current top, in mono droid.</description>
+    <summary>Can be used to keep track of activities, so you can get the current top activity.</summary>
+    <copyright>Darrell Tunnell</copyright>
+    <dependencies>    
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="1.1.1" />
+      <dependency id="NETStandard.Library" version="1.6.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/$configuration$/MonoDroid.ViewLifecycleManager.dll" target="lib\monoandroid71" />
+  </files>
+</package>
