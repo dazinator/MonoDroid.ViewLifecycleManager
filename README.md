@@ -62,7 +62,7 @@ If you are using a DI container, you can register the following services into th
 
 ## Usage - Method 2 Xamarin.Standard
 
-I highly recommend using [Xamarin.Standard](https://github.com/dazinator/Xamarin.Standard/tree/develop/src) and then usage becomes simpler:
+I highly recommend using [Xamarin.Standard](https://github.com/dazinator/Xamarin.Standard) and then usage becomes simpler:
 
 ```
 
